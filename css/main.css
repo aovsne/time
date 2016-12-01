@@ -1,0 +1,32 @@
+#jikan{
+	font-family: 'Monofett', cursive;
+	color:white;
+	text-shadow:0 0 10px white;
+	margin-top:0;
+	text-align:center;
+	font-size:200px;
+	opacity:0.9;
+}
+#video-bg-elem{
+	z-index:-1000;
+	min-width:100%;
+	min-height:100%;
+	position:fixed;
+	overflow:hidden;
+	top:0;
+}
+
+@media(max-width:970px){
+	#jikan{
+		font-size:100px;
+		text-shadow: 0 0 5px;
+	}
+
+}
+@media(max-width:440px){
+	#jikan{
+		font-size:80px;
+		text-shadow:0 0 2px white;
+	}
+}
+
